@@ -1,4 +1,4 @@
 colors = [red, green, yellow]
- colors.collect do|color|
+ colors.each do|color|
  puts "i love #{color}!"
 end
